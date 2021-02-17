@@ -38,6 +38,7 @@ namespace TodoList
             this.btn_addT = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgTodo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -148,6 +149,15 @@ namespace TodoList
             this.label2.TabIndex = 5;
             this.label2.Text = "WAMPIPTI";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(288, 540);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Hello world";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,6 +166,7 @@ namespace TodoList
             this.BackgroundImage = global::TodoList.Properties.Resources.neon_pink_ladscape_53876_91654;
             this.ClientSize = new System.Drawing.Size(715, 873);
             this.ControlBox = false;
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_addT);
@@ -180,6 +191,7 @@ namespace TodoList
         private System.Windows.Forms.Button btn_addT;
         private System.Windows.Forms.Button btn_exit;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
