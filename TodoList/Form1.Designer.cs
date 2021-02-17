@@ -38,9 +38,12 @@ namespace TodoList
             this.btn_addT = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
             this.lblOne = new System.Windows.Forms.Label();
+
+           
+
             this.lbl_txt1 = new System.Windows.Forms.Label();
             this.lbl_txt2 = new System.Windows.Forms.Label();
-            this.lbl_txt = new System.Windows.Forms.Label();
+
             ((System.ComponentModel.ISupportInitialize)(this.dgTodo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -152,6 +155,8 @@ namespace TodoList
             this.lblOne.TabIndex = 5;
             this.lblOne.Text = "AWEEEEETT";
             // 
+
+
             // lbl_txt1
             // 
             this.lbl_txt1.AutoSize = true;
@@ -180,6 +185,7 @@ namespace TodoList
             this.lbl_txt.Size = new System.Drawing.Size(71, 13);
             this.lbl_txt.TabIndex = 6;
             this.lbl_txt.Text = "vincent bayot";
+
             // 
             // Form1
             // 
@@ -189,9 +195,10 @@ namespace TodoList
             this.BackgroundImage = global::TodoList.Properties.Resources.neon_pink_ladscape_53876_91654;
             this.ClientSize = new System.Drawing.Size(715, 873);
             this.ControlBox = false;
-            this.Controls.Add(this.lbl_txt);
+
             this.Controls.Add(this.lbl_txt2);
             this.Controls.Add(this.lbl_txt1);
+
             this.Controls.Add(this.lblOne);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_addT);
@@ -206,7 +213,7 @@ namespace TodoList
             this.ResumeLayout(false);
             this.PerformLayout();
 
-        }
+        } 
 
         #endregion
 
@@ -216,9 +223,13 @@ namespace TodoList
         private System.Windows.Forms.Button btn_addT;
         private System.Windows.Forms.Button btn_exit;
         private System.Windows.Forms.Label lblOne;
+
+        private System.Windows.Forms.Label lbl_text;
+
         private System.Windows.Forms.Label lbl_txt1;
         private System.Windows.Forms.Label lbl_txt2;
         private System.Windows.Forms.Label lbl_txt;
+
     }
 }
 
