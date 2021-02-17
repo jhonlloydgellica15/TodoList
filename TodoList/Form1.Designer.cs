@@ -38,6 +38,7 @@ namespace TodoList
             this.btn_addT = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
             this.lblOne = new System.Windows.Forms.Label();
+            this.lbl_text = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgTodo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -149,6 +150,15 @@ namespace TodoList
             this.lblOne.TabIndex = 5;
             this.lblOne.Text = "AWEEEEETT";
             // 
+            // lbl_text
+            // 
+            this.lbl_text.AutoSize = true;
+            this.lbl_text.Location = new System.Drawing.Point(116, 127);
+            this.lbl_text.Name = "lbl_text";
+            this.lbl_text.Size = new System.Drawing.Size(35, 13);
+            this.lbl_text.TabIndex = 6;
+            this.lbl_text.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -157,6 +167,7 @@ namespace TodoList
             this.BackgroundImage = global::TodoList.Properties.Resources.neon_pink_ladscape_53876_91654;
             this.ClientSize = new System.Drawing.Size(715, 873);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_text);
             this.Controls.Add(this.lblOne);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_addT);
@@ -181,6 +192,7 @@ namespace TodoList
         private System.Windows.Forms.Button btn_addT;
         private System.Windows.Forms.Button btn_exit;
         private System.Windows.Forms.Label lblOne;
+        private System.Windows.Forms.Label lbl_text;
     }
 }
 
