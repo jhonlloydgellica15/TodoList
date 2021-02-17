@@ -40,6 +40,7 @@ namespace TodoList
             this.lblOne = new System.Windows.Forms.Label();
             this.lbl_txt1 = new System.Windows.Forms.Label();
             this.lbl_txt2 = new System.Windows.Forms.Label();
+            this.lbl_txt = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgTodo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -171,6 +172,15 @@ namespace TodoList
             this.lbl_txt2.TabIndex = 5;
             this.lbl_txt2.Text = "Wampipti 👉👈";
             // 
+            // lbl_txt
+            // 
+            this.lbl_txt.AutoSize = true;
+            this.lbl_txt.Location = new System.Drawing.Point(65, 136);
+            this.lbl_txt.Name = "lbl_txt";
+            this.lbl_txt.Size = new System.Drawing.Size(71, 13);
+            this.lbl_txt.TabIndex = 6;
+            this.lbl_txt.Text = "vincent bayot";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,6 +189,7 @@ namespace TodoList
             this.BackgroundImage = global::TodoList.Properties.Resources.neon_pink_ladscape_53876_91654;
             this.ClientSize = new System.Drawing.Size(715, 873);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_txt);
             this.Controls.Add(this.lbl_txt2);
             this.Controls.Add(this.lbl_txt1);
             this.Controls.Add(this.lblOne);
@@ -207,6 +218,7 @@ namespace TodoList
         private System.Windows.Forms.Label lblOne;
         private System.Windows.Forms.Label lbl_txt1;
         private System.Windows.Forms.Label lbl_txt2;
+        private System.Windows.Forms.Label lbl_txt;
     }
 }
 
