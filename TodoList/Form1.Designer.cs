@@ -37,13 +37,6 @@ namespace TodoList
             this.txt_task = new System.Windows.Forms.TextBox();
             this.btn_addT = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
-            this.lblOne = new System.Windows.Forms.Label();
-
-           
-
-            this.lbl_txt1 = new System.Windows.Forms.Label();
-            this.lbl_txt2 = new System.Windows.Forms.Label();
-
             ((System.ComponentModel.ISupportInitialize)(this.dgTodo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -145,48 +138,6 @@ namespace TodoList
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
-            // lblOne
-            // 
-            this.lblOne.AutoSize = true;
-            this.lblOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOne.Location = new System.Drawing.Point(256, 158);
-            this.lblOne.Name = "lblOne";
-            this.lblOne.Size = new System.Drawing.Size(151, 25);
-            this.lblOne.TabIndex = 5;
-            this.lblOne.Text = "AWEEEEETT";
-            // 
-
-
-            // lbl_txt1
-            // 
-            this.lbl_txt1.AutoSize = true;
-            this.lbl_txt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_txt1.Location = new System.Drawing.Point(231, 70);
-            this.lbl_txt1.Name = "lbl_txt1";
-            this.lbl_txt1.Size = new System.Drawing.Size(78, 25);
-            this.lbl_txt1.TabIndex = 5;
-            this.lbl_txt1.Text = "Achup";
-            // 
-            // lbl_txt2
-            // 
-            this.lbl_txt2.AutoSize = true;
-            this.lbl_txt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_txt2.Location = new System.Drawing.Point(361, 70);
-            this.lbl_txt2.Name = "lbl_txt2";
-            this.lbl_txt2.Size = new System.Drawing.Size(162, 25);
-            this.lbl_txt2.TabIndex = 5;
-            this.lbl_txt2.Text = "Wampipti 👉👈";
-            // 
-            // lbl_txt
-            // 
-            this.lbl_txt.AutoSize = true;
-            this.lbl_txt.Location = new System.Drawing.Point(65, 136);
-            this.lbl_txt.Name = "lbl_txt";
-            this.lbl_txt.Size = new System.Drawing.Size(71, 13);
-            this.lbl_txt.TabIndex = 6;
-            this.lbl_txt.Text = "vincent bayot";
-
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -195,11 +146,6 @@ namespace TodoList
             this.BackgroundImage = global::TodoList.Properties.Resources.neon_pink_ladscape_53876_91654;
             this.ClientSize = new System.Drawing.Size(715, 873);
             this.ControlBox = false;
-
-            this.Controls.Add(this.lbl_txt2);
-            this.Controls.Add(this.lbl_txt1);
-
-            this.Controls.Add(this.lblOne);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_addT);
             this.Controls.Add(this.txt_task);
@@ -222,12 +168,8 @@ namespace TodoList
         private System.Windows.Forms.TextBox txt_task;
         private System.Windows.Forms.Button btn_addT;
         private System.Windows.Forms.Button btn_exit;
-        private System.Windows.Forms.Label lblOne;
 
         private System.Windows.Forms.Label lbl_text;
-
-        private System.Windows.Forms.Label lbl_txt1;
-        private System.Windows.Forms.Label lbl_txt2;
         private System.Windows.Forms.Label lbl_txt;
 
     }
