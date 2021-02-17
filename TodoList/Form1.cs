@@ -65,7 +65,6 @@ namespace TodoList
         private void btn_addT_Click(object sender, EventArgs e)
         {
           
-                //string task = txt_task.ToString();
                 todo.INSERT(txt_task);
                 txt_task.Clear();
                 READ();
