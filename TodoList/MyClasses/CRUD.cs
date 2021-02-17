@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Data;
+using System.Windows.Forms;
 
 namespace TodoList.MyClasses
 {
@@ -71,6 +72,28 @@ namespace TodoList.MyClasses
             }
 
             con.Close();
+        }
+
+        public void INSERT(TextBox value)
+        {
+            task = value.Text;
+            try
+            {
+                //task = value.Text;
+                con.Open();
+                cmd = new MySqlCommand("INSERT INTO tbltodo (todo) VALUES (@task)", con);
+                cmd.Parameters.AddWithValue("@task", task);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Task Added Successfully!", "Message Info");
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+            
         }
     }
 }
