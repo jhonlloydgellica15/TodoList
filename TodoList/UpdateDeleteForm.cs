@@ -38,7 +38,6 @@ namespace TodoList
             todo.UPDATE();
             f1.READ();
             this.Dispose();
-            
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
